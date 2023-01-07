@@ -37,7 +37,10 @@ import axios from 'axios';
 const details = <div className="container mt-5">
 <h1 className="text-center mb-5">Star Wars Characters</h1>
 <div className="row">
-  <div className="col-md-4">
+
+  <div className="col-md-4 overlay">
+  <img src= "aya\src\assets\image.webp" alt="" class="image"/>
+ 
     <ul className="list-group">
       {characters.map(character => (
         <li 
